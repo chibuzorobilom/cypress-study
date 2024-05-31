@@ -1,0 +1,18 @@
+{
+  "homeSignUpButton": ".Header2_header__nav__btn__wRKfY div:nth-child(2) button",
+  "fullNameField": "input#fullname",
+  "bizNameField": "#businessname",
+  "bizEmailField": "#businessemail",
+  "bizPhoneField": "#businessphonenumber",
+  "bizRegPhoneField": "#businessphonereg",
+  "bizRegNumField": "#businessRegNum",
+  "nextButton": "",
+  "websiteField": "#website",
+  "instagramField": "#instagramHandle",
+  "twitterField": "#twitterHandle",
+  "infoSourceField": "div[placeholder]",
+  "infoOptionDropdown": ".MimaDropdown_select__options__xLi7K:nth-child(2)",
+  "passwordField": "#password",
+  "signUpButton": "",
+  "thankYouText": ".Onboarding_left__JuloI:nth-child(2)"
+}
