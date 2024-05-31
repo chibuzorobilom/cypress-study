@@ -16,12 +16,9 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 
+import 'cypress-mochawesome-reporter/register';
+
 // ***********************************************************
-
-/*   before('Testing Before All', () => {
-    cy.log('Start BEFORE ALL tests')
-  }) */
-
 beforeEach('Testing Before Each', () => {
     // cy.log('Start BEFORE EACH test')
     Cypress.on('uncaught:exception', () => {
@@ -30,6 +27,10 @@ beforeEach('Testing Before Each', () => {
     cy.visit('/')
     cy.get('.Header2_header__nav__btn__wRKfY div:nth-child(2) button').should('be.visible').click()
 })
+
+/*   before('Testing Before All', () => {
+    cy.log('Start BEFORE ALL tests')
+  }) */
 
 /*   after('Testing After All', () => {
     cy.log('Start AFTER ALL tests end')
