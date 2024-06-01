@@ -4,7 +4,7 @@
 import { faker } from '@faker-js/faker'
 
 // describe('Sign Up Test Scenarios with Unique Details', () => {
-
+// 
 
 //   it.only('User should sign up successfully after filling all required and optional fields', () => {
 //     cy.get('#fullname').should('be.visible').type(faker.name.fullName())
