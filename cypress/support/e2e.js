@@ -32,6 +32,8 @@ beforeEach('Testing Before Each', () => {
     cy.get('.Header2_header__nav__btn__wRKfY div:nth-child(2) button').should('be.visible').click()
 })
 
+//
+
 /*   after('Testing After All', () => {
     cy.log('Start AFTER ALL tests end')
   }) */

@@ -1,6 +1,3 @@
-
-
-
 {
   "homeSignUpButton": ".Header2_header__nav__btn__wRKfY div:nth-child(2) button",
   "fullNameField": "#fullname",
