@@ -1,0 +1,8 @@
+node_modules/
+.vscode/
+.ideal/
+cypress/videos
+cypress/screenshots
+dist/
+cypress/reports/
+
