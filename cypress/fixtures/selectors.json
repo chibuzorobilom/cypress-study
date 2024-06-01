@@ -8,13 +8,13 @@
   "bizEmailField": "#businessemail",
   "bizPhoneField": "#businessphonenumber",
   "bizRegNumField": "#businessRegNum",
-  "nextButton": "",
+  "nextButton": "button[type='button']",
   "websiteField": "#website",
   "instagramField": "#instagramHandle",
   "twitterField": "#twitterHandle",
   "infoSourceField": "div[placeholder]",
   "infoOptionDropdown": ".MimaDropdown_select__options__xLi7K:nth-child(2)",
   "passwordField": "#password",
-  "signUpButton": "",
+  "signUpButton": "button[type='submit']",
   "thankYouText": ".Onboarding_left__h2__w+P+z:nth-child(2)"
 }
