@@ -16,6 +16,7 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import 'cypress-mochawesome-reporter/register';
+import './command/common-actions'
 
 // ***********************************************************
 
@@ -23,11 +24,10 @@ import 'cypress-mochawesome-reporter/register';
     cy.log('Start BEFORE ALL tests')
   }) */
 
-beforeEach('Testing Before Each', () => {
-    // cy.log('Start BEFORE EACH test')
-    Cypress.on('uncaught:exception', () => {
-        return false;
-    })
+beforeEach('Before Each', () => {
+  cy.on('uncaught:exception', () => {
+    return false;
+  })
     cy.visit('/')
     cy.get('.Header2_header__nav__btn__wRKfY div:nth-child(2) button').should('be.visible').click()
 })
