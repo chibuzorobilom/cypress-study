@@ -37,7 +37,9 @@
             "multiple-cucumber-html-reporter": "^3.6.2",
             "playwright-webkit": "^1.44.1"
         },
-        "package_config_options": {},
+        "package_config_options": {
+            
+        },
         "headless": true
     },
     "connection_settings": {
