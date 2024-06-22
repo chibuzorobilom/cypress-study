@@ -1,0 +1,31 @@
+# Node Artifacts
+node_modules/
+
+# Cypress Artifacts
+cypress/videos
+cypress/screenshots
+cypress/reports/
+cypress.env.json
+
+
+# Random Files
+dist/
+
+# BrowserStack Files
+log/
+tmpBstackPackages/
+npm_install_debug.log
+results/
+
+
+# VS Code Files
+.vscode/
+
+# JetBrains Files
+.idea/
+
+# Google Drive Files
+desktop.ini/
+desktop/
+**/desktop.ini
+***/desktop.ini
